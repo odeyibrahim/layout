@@ -1,6 +1,6 @@
 # Brand Studio
 
-Mobile-first tool for making on-brand posts, stories, quotes and invoices. Set your brand once, tap what you need, edit in place, add photos with light/contrast/colour and one-tap filters, resize any design to another format, draw with a vector pen or brush, and share a PNG. No build step, no framework, no server: everything stays in the browser (localStorage).
+Mobile-first tool for making on-brand posts, stories, quotes and invoices. Set your brand once, tap what you need, edit in place, add photos with light/contrast/colour and one-tap filters, resize any design to another format, edit pen/brush paths point by point, pick an industry for ready-made wording, draw with a vector pen or brush, and share a PNG or save a vector PDF for print. No build step, no framework, no server: everything stays in the browser (localStorage).
 
 ## Run locally
     npm run dev      # serves ./public (needs Node 18+)
@@ -21,4 +21,4 @@ Not used and not needed. Add it later only if you want accounts or cloud sync of
     tests/             unit tests       netlify.toml   deploy config
 
 ## Not built yet
-Cut-out and perspective warp, industry copy library, bundled fonts, vector PDF, brush pressure/taper, node editing, gradients, path booleans, pinch zoom, PNG app icons.
+Background cut-out, perspective warp, path booleans, gradients, brush pressure/taper, pinch zoom, bundled fonts (text uses system fonts; PDF uses Times/Helvetica), accounts and cloud sync.
